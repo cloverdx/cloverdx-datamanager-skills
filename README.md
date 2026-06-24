@@ -27,7 +27,7 @@ Install this repository through the Claude Code plugin manager:
 
 ```text
 /plugin marketplace add cloverdx/cloverdx-datamanager-skills
-/plugin install cloverdx-datamanager-skills@cloverdx-datamanager-skills
+/plugin install cloverdx-datamanager-skills@cloverdx-skills
 ```
 
 You can also copy the skill folders into your local Claude skills directory if
@@ -101,3 +101,22 @@ data-manager/
   app.js
   app.css
 ```
+
+## Usage and licensing
+
+Feel free to reuse or fork these skills and accompanying materials in your own
+CloverDX solutions.
+
+The content in this repository is provided on an "as is" basis, without
+warranties or conditions of any kind, either express or implied, including,
+without limitation, any warranties or conditions of title, non-infringement,
+merchantability, or fitness for a particular purpose. Unless otherwise
+specified, the content in this repository is licensed under the Apache 2.0
+license.
+
+## Contributing
+
+We welcome your feedback and contributions. You can:
+
+- submit comments or pull requests here on GitHub,
+- reach out to us through cloverdx.com.

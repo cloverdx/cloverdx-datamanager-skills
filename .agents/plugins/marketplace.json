@@ -1,7 +1,7 @@
 {
-  "name": "cloverdx-datamanager-skills",
+  "name": "cloverdx-skills",
   "interface": {
-    "displayName": "CloverDX Data Manager Skills"
+    "displayName": "CloverDX Skills"
   },
   "plugins": [
     {

@@ -1,6 +1,6 @@
 {
-  "name": "cloverdx-datamanager-skills",
-  "description": "Claude Code marketplace for CloverDX Data Manager skills.",
+  "name": "cloverdx-skills",
+  "description": "Claude Code marketplace for CloverDX skills.",
   "owner": {
     "name": "CloverDX"
   },
