@@ -1,0 +1,16 @@
+{
+  "name": "cloverdx-datamanager-skills",
+  "description": "Claude Code marketplace for CloverDX Data Manager skills.",
+  "owner": {
+    "name": "CloverDX"
+  },
+  "plugins": [
+    {
+      "name": "cloverdx-datamanager-skills",
+      "source": "./",
+      "description": "Agent skills for CloverDX Data Manager customization.",
+      "version": "0.1.0",
+      "skills": "./skills"
+    }
+  ]
+}

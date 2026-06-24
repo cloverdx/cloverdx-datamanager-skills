@@ -1,0 +1,20 @@
+{
+  "name": "cloverdx-datamanager-skills",
+  "interface": {
+    "displayName": "CloverDX Data Manager Skills"
+  },
+  "plugins": [
+    {
+      "name": "cloverdx-datamanager-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

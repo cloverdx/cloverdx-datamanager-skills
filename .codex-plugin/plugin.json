@@ -1,0 +1,6 @@
+{
+  "name": "cloverdx-datamanager-skills",
+  "version": "0.1.0",
+  "description": "Agent skills for CloverDX Data Manager customization.",
+  "skills": "./skills/"
+}

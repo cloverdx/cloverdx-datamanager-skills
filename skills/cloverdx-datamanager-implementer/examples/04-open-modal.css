@@ -1,0 +1,56 @@
+/* What: styles for the modal created by 04-open-modal.js. */
+
+.dmc-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  inset: 0;
+  z-index: 1001;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #333333b3;
+}
+
+.dmc-modal {
+  display: flex;
+  flex-flow: column;
+  min-width: min(50rem, calc(100vw - 3.2rem));
+  max-width: 95vw;
+  max-height: 90vh;
+  margin: auto;
+  padding: 3.2rem;
+  background: #fff;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 2rem #33333340;
+}
+
+.dmc-modal__header {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+.dmc-modal__title {
+  flex-grow: 1;
+  margin: 0;
+  overflow: hidden;
+}
+
+.dmc-modal__body {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 4;
+  min-height: 0;
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.dmc-modal__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1rem 0;
+}

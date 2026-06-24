@@ -1,0 +1,10 @@
+.dmc-permission-toolbar-action {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  padding-left: 1.2rem;
+}
+
+.dmc-permission-toolbar-action .dmc-permission-action {
+  white-space: nowrap;
+}
