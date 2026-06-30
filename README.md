@@ -119,4 +119,4 @@ license.
 We welcome your feedback and contributions. You can:
 
 - submit comments or pull requests here on GitHub,
-- reach out to us through cloverdx.com.
+- reach out to us through hello@cloverdx.com.
