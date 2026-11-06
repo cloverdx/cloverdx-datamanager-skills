@@ -7,6 +7,15 @@ These skills are designed to be installed together as one bundle. They call
 into each other and split responsibilities across the workflow, so installing
 only one skill is not the intended setup.
 
+## Supported CloverDX versions
+
+This is version 1 of the skills. It works on **CloverDX 7.6 and older**, where a
+Data Manager customization is a branding ZIP with `data-manager/app.js` and
+`data-manager/app.css`.
+
+CloverDX 7.7 removed that mechanism: Data Manager customizations now ship inside
+a CloverDX library. For CloverDX 7.7 and newer, use version 2 of these skills.
+
 ## Install
 
 ### Any agent (via `npx skills`)
