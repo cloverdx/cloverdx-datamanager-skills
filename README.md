@@ -16,6 +16,9 @@ Data Manager customization is a branding ZIP with `data-manager/app.js` and
 CloverDX 7.7 removed that mechanism: Data Manager customizations now ship inside
 a CloverDX library. For CloverDX 7.7 and newer, use version 2 of these skills.
 
+The install commands below pin version 1 with the `v1` tag. Without it, they
+install the latest version, which does not support CloverDX 7.6 and older.
+
 ## Install
 
 ### Any agent (via `npx skills`)
@@ -24,7 +27,7 @@ If your agent supports the open Agent Skills ecosystem, install this repository
 from GitHub with:
 
 ```bash
-npx skills add cloverdx/cloverdx-datamanager-skills --all
+npx skills add cloverdx/cloverdx-datamanager-skills@v1 --all
 ```
 
 This installs all skills from this repository for all supported agents. For a
@@ -35,7 +38,7 @@ user-level install instead of a project-level install, add `-g`.
 Install this repository through the Claude Code plugin manager:
 
 ```text
-/plugin marketplace add cloverdx/cloverdx-datamanager-skills
+/plugin marketplace add cloverdx/cloverdx-datamanager-skills#v1
 /plugin install cloverdx-datamanager-skills@cloverdx-skills
 ```
 
@@ -47,7 +50,7 @@ you prefer a plain skills install.
 Install this repository through the Codex plugin manager:
 
 ```bash
-codex plugin marketplace add cloverdx/cloverdx-datamanager-skills
+codex plugin marketplace add cloverdx/cloverdx-datamanager-skills@v1
 ```
 
 Then open `/plugins` in Codex and install `cloverdx-datamanager-skills`.
