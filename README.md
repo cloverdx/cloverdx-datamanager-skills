@@ -9,8 +9,8 @@ only one skill is not the intended setup.
 
 ## Version
 
-This is version 1 of the skills. The install commands below pin it with the
-`v1` tag.
+This is version 1 of the skills. It supports **CloverDX 7.6 and older**. The
+install commands below pin it with the `v1` tag.
 
 ## Install
 
